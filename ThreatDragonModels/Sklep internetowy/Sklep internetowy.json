@@ -131,7 +131,11 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [],
+              "threatFrequency": {
+                "spoofing": 7,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -580,10 +584,6 @@
             "vertices": [
               {
                 "x": 410,
-                "y": 230
-              },
-              {
-                "x": 410,
                 "y": 200
               }
             ]
@@ -831,6 +831,10 @@
             },
             "vertices": [
               {
+                "x": 390,
+                "y": 160
+              },
+              {
                 "x": 303,
                 "y": 190
               }
@@ -841,6 +845,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 3
   }
 }
