@@ -136,12 +136,12 @@
           },
           {
             "position": {
-              "x": 440,
+              "x": 425,
               "y": 100.00000000000028
             },
             "size": {
-              "width": 140,
-              "height": 140
+              "width": 160,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -260,8 +260,8 @@
               "y": 320
             },
             "size": {
-              "width": 200,
-              "height": 130
+              "width": 190,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -385,7 +385,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Data storage"
+                "text": "Data stora"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -398,6 +398,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -481,10 +482,9 @@
               ]
             },
             "id": "663a69a7-65c8-40e1-b62f-21ddf02934b8",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Data storage",
+              "name": "Store",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -776,7 +776,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Zapytanie SQL",
+              "name": "Data Flow",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -790,23 +790,17 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Zapytanie SQL"
+              "Data Flow"
             ],
-            "id": "f17add77-fac9-41ab-9dde-9258e3fa2246",
+            "id": "9d2571a2-920c-44e1-a17e-0f5f3a723e8b",
             "source": {
-              "x": 610,
-              "y": 390
+              "cell": "2281b4d6-c190-4e94-81f7-c1a280406194",
+              "port": "6d0f21e3-805e-4860-85bd-2a9d581f21bc"
             },
             "target": {
-              "cell": "663a69a7-65c8-40e1-b62f-21ddf02934b8",
-              "port": "60f20b0b-fc73-4945-a4f9-9c6449b6346d"
-            },
-            "vertices": [
-              {
-                "x": 700,
-                "y": 310
-              }
-            ]
+              "cell": "f526a634-2802-4451-bb72-b626eb319083",
+              "port": "711e4d45-fe5a-4d65-9081-b66fc6375158"
+            }
           }
         ]
       }
