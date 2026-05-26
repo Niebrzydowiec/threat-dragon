@@ -376,16 +376,16 @@
           },
           {
             "position": {
-              "x": 744,
-              "y": 240
+              "x": 864,
+              "y": 230
             },
             "size": {
-              "width": 120,
-              "height": 60
+              "width": 190,
+              "height": 70
             },
             "attrs": {
               "text": {
-                "text": "Data storage"
+                "text": "Baza danych użytkownika"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -484,7 +484,7 @@
             "id": "663a69a7-65c8-40e1-b62f-21ddf02934b8",
             "data": {
               "type": "tm.Store",
-              "name": "Data storage",
+              "name": "Baza danych użytkownika",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -660,7 +660,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Odpowiedź API",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -674,7 +674,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Odpowiedź API"
             ],
             "id": "9d2571a2-920c-44e1-a17e-0f5f3a723e8b",
             "source": {
